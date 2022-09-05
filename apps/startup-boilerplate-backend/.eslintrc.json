@@ -1,0 +1,19 @@
+{
+  "env": {
+    "es6": true,
+    "node": true,
+    "jest": true
+  },
+  "extends": ["eslint:recommended"],
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "plugins": ["prettier"],
+  "rules": {
+    "no-undef": 2,
+    "no-unused-vars": "off",
+    "no-useless-escape": 0,
+    "prettier/prettier": "error"
+  }
+}
